@@ -1,0 +1,112 @@
+body {
+    background: #26262e;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Fredoka One', cursive;
+    font-size: 60px;
+}
+
+.font-custom {
+    font-family: 'Fredoka One', cursive;
+}
+.font-custom2 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px
+}
+
+.right-arrow,
+.left-arrow {
+    font-size: 100px;
+    color: white;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+    font-size: 110px;
+    transition: 0.3s;
+}
+
+.left-arrow {
+    transform: rotate(180deg);
+}
+
+.home-btns {
+    font-family: 'Fredoka One', cursive;
+    color: #26262e;
+    position: absolute;
+    top: -110px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
+
+.red-btn:hover {
+    color: #9c2430 !important;
+}
+
+label {
+    font-size: 30px;
+}
+
+.slider::-webkit-slider-thumb {
+    background: #dc3545;
+}
+
+.budget-value {
+    font-size: 20px;
+}
+
+.description {
+    max-height: 125px;
+    overflow: scroll;
+}
+
+.gift-bubble {
+    height: 550px;
+    box-shadow: inset 0px 0px 35px 7px #26262e;
+    background: white;
+    position: relative;
+}
+
+#gift-bubble {
+    max-width: 350px;
+    max-height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+}
+
+#loading-home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#gift-image {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 5px;
+}
