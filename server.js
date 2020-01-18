@@ -38,6 +38,7 @@ passport.deserializeUser(db.User.deserializeUser());
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
+  app.use(routes);
 }
 
 // Connect to MongoDB
