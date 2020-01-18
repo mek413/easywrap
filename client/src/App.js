@@ -25,7 +25,7 @@ class App extends React.Component {
     API.getAuthStatus()
         .then(res => {
 
-          console.log(res.data);
+          
 
           this.setState({user: res.data});
 
