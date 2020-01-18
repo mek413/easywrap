@@ -41,7 +41,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Connect to MongoDB
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://user1:Luvisrage2@ds239967.mlab.com:39967/heroku_0qvnxppl";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://user1:password1@ds225205.mlab.com:25205/heroku_vqj9c0zm";
 mongoose.connect(MONGODB_URI);
 
 // Routes ***
