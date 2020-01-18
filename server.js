@@ -1,4 +1,3 @@
-require("dotenv").config();
 // Dependancies
 var express = require("express");
 var mongoose = require("mongoose");
@@ -9,6 +8,7 @@ var LocalStrategy = require("passport-local");
 var passportLocalMongoose = require("passport-local-mongoose");
 var path = require("path");
 var routes = require("./routes");
+require("dotenv").config();
 
 // Server
 var app = express();
