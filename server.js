@@ -50,9 +50,9 @@ app.use(routes);
 
 // Send every other request to the React app
 // Define any API routes before this runs
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/public/index.html"));
-});
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "./client/public/index.html"));
+// });
 
 // Listener
 http.listen(PORT, function () {
